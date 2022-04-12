@@ -1,5 +1,5 @@
 - name: Ensure that the existing certificate is still valid 2 weeks (1209600 seconds) from now
   openssl_certificate:
-    path: /etc/ssl/crt/example.com.crt
+    path: www.discovertravelshop.com.au.cer
     provider: assertonly
     valid_in: 1209600
